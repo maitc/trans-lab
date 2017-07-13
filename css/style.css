@@ -1,14 +1,15 @@
 /* YeyeYeee código aquí */
 /*COLORES:
 #F6A800
-#3E3F41*/
+#3E3F41
+#DDDEE0*/
 *{
 	font-family: 'Open Sans', sans-serif;
 }
 body{
 	background-color: #3E3F41;
 }
-
+/*****INDEX PRINCIPAL*****/
 /**FIRST-SECTION**/
 .first-section{
 	text-align: center;
@@ -73,3 +74,40 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	text-decoration: none;
 	color: #F6A800;
 }
+
+/*****SEGUNDO INDEX*****/
+.index-dos{
+	background-color: #DDDEE0;
+}
+/**FIRST SECTION**/
+nav{
+	background-color: #3E3F41;
+}
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons{
+	color: #F6A800;
+}
+.side-nav li>a{
+	color: black;
+}
+/**SECOND SECTION**/
+.second-section-dos{
+	text-align: center;
+}
+.second-button button{
+	display: block;
+}
+.row .col.s12{
+	padding: 20px;
+}
+.btn-uno{
+	margin-top: 400px;
+}
+.btn-uno, .btn-dos, .btn-tres, .btn-cuatro{
+	margin-bottom: 15px;
+	border: none;
+	background-color: #F6A800;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
