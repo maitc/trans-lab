@@ -189,6 +189,7 @@ nav{
 .select-wrapper input.select-dropdown{
 	padding: 0px;
 	margin-left: 18px;
+	margin-bottom: 40px;
     width: 96%;
 }
 .button-balances button{
@@ -201,4 +202,10 @@ nav{
 	font-size: 25px;
 	font-weight: 300;
 	color: white;
+}
+label{
+	font-size: 25px;
+	font-weight: 800;
+	color: black;
+	margin-bottom: 5px;
 }
