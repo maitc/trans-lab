@@ -27,35 +27,37 @@ body{
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
 	display: block;
 	margin-bottom: 0px;
-	margin-left: 80px;
 	padding: 20px;
 	border: none;
-	width: 80%;
+	width: 100%;
 	background-color: white;
 }
 ::-webkit-input-placeholder { 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px; 
+	font-size: 30px;
+	color: #373636; 
 } /* WebKit */
 :-moz-placeholder { 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 60px; 
+	font-size: 60px;
+	color: #373636; 
 } /* Firefox 18- */
 ::-moz-placeholder { 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 60px; 
+	font-size: 60px;
+	color: #373636; 
 } /* Firefox 19+ */
 :-ms-input-placeholder { 
 	font-family: 'Open Sans', sans-serif;
-	font-size: 60px; 
+	font-size: 60px;
+	color: #373636; 
 } /* IE 10+ */
 .first-inputs button{
 	display: block;
-	margin-left: 80px;
 	margin-bottom: 35px;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	width: 85%;
+	width: 105%;
 	border: none;
 	background-color: #F6A800;
 	font-size: 20px;
@@ -111,3 +113,45 @@ nav{
 	color: white;
 }
 
+/*****TERCER INDEX*****/
+/**SECOND SECTION**/
+.second-section-tres{
+	background-color: #F6A800;
+}
+.profile{
+	text-align: center;
+}
+.profile img{
+	width: 50%;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+/**THIRD SECTION**/
+.third-section-tres{
+	text-align: center;
+}
+.third-inputs p{
+	border: 1px;
+	width: 105%;
+	padding: 27px;
+	margin-bottom: 70px;
+	background-color: white;
+	font-size: 25px;
+}
+.third-section-tres .third-inputs .input-numero-tarjeta{
+	width: 100%;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+}
+.third-inputs button{
+	width: 105%;
+	margin-top: 45px;
+	margin-bottom: 35px;
+	padding-bottom: 23px;
+	padding-top: 23px;
+	border: none;
+	background-color: #F6A800;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
