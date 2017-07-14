@@ -155,3 +155,23 @@ nav{
 	font-weight: 300;
 	color: white;
 }
+/*****CUARTO INDEX*****/
+.second-section-cuatro{
+	background-color: #F6A800;
+}
+.answers{
+	text-align: center;
+}
+.answers h2{
+	margin-top: 250px;
+	margin-bottom: 250px;
+	color: white;
+	font-size: 50px;
+	font-weight: 800;
+}
+.answers-menu ul{
+	margin-top: 60px;
+}
+.collapsible-body{
+	background-color: white
+}
