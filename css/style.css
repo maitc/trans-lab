@@ -138,8 +138,9 @@ nav{
 	background-color: white;
 	font-size: 25px;
 }
-.third-section-tres .third-inputs .input-numero-tarjeta{
+.third-section-tres .third-inputs .input-numero-tarjeta, .second-section-cinco .balances .input-numero-tarjeta{
 	width: 100%;
+	padding: 0px;
 	background-color: transparent;
 	border-bottom: 1px solid black;
 }
@@ -156,6 +157,7 @@ nav{
 	color: white;
 }
 /*****CUARTO INDEX*****/
+/**SECOND SECTION**/
 .second-section-cuatro{
 	background-color: #F6A800;
 }
@@ -174,4 +176,29 @@ nav{
 }
 .collapsible-body{
 	background-color: white
+}
+/*****QUINTO INDEX*****/
+/**SECOND SECTION**/
+.second-section-cinco{
+	text-align: center;
+}
+.second-section-cinco .balances .input-numero-tarjeta{
+	margin-top: 170px;
+	margin-bottom: 60px;
+}
+.select-wrapper input.select-dropdown{
+	padding: 0px;
+	margin-left: 18px;
+    width: 96%;
+}
+.button-balances button{
+	width: 20%;
+	margin-top: 50px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	border: none;
+	background-color: #F6A800;
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
 }
