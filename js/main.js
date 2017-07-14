@@ -47,9 +47,9 @@ $(document).ready(function(){
 	});
 
 	//funcion agregar tarjeta junto con eliminar
-	$(".btn-r").click(function(){
-		var inputTarjetas = $(".input-numero-tarjeta").val();
-		$(".print").append("<p>" + inputTarjetas + "<a class='eliminar'>x</a></p>");
+	$(".btn-agregar").click(function(){
+		var inputTarjetas = $("#input-numero-tarjeta").val();
+		$(".print").append("<p id='tarjeta-nueva'>" + inputTarjetas + "<a class='eliminar'>x</a></p>");
 		//se le da click a la x con la funcion de eliminar la tarea como de eliminarla de locastorage.
 		$(document).on('click', '.eliminar', function(){
 			$(this).parent().remove();
@@ -66,12 +66,46 @@ $(document).ready(function(){
         })
         .done(function(e){
             console.log(e.saldoTarjeta);
-            $(".print-balances").append("<p>" +e.saldoTarjeta+"</p>");
+            $(".print-balances").append("<p>" + e.saldoTarjeta + "</p>");
         })
         .fail(function(){
             console.log("error");
         });
 	});
+
+	
+	/*$("#calcular").click(function(){
+		var selectUno = $("#uno");
+		var selectDos = $("#dos");
+		var selectTres = $("#tres");
+
+		var inputIngresoTarjeta = $(".input-num").val();
+		 $.ajax({
+            url:'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip='+inputIngresoTarjeta+'',
+            type: 'GET',
+            datatype: 'json',
+        })
+        .done(function(e){
+            console.log(e.saldoTarjeta);
+            var saldo = (e.saldoTarjeta);
+            /*var quitoNoNumeros = saldo.replace("$", "");
+            var quitoNoNum = quitoNoNumeros.replace(".", "");
+            var numeroSinString = parseInt(quitoNoNum);
+
+            var precioUno = numeroSinString - 740;
+            var precioDos = numeroSinString -680;
+            var precioTres = numeroSinString - 640;
+
+            if(selectUno){
+            	$(".calculado").append("<div><p>" + precioUno + "</p></div>");
+            }
+            
+        })
+        .fail(function(){
+            console.log("error");
+        });
+
+	});*/
 
 
 })
