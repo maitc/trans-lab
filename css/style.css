@@ -52,7 +52,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	font-size: 60px;
 	color: #373636; 
 } /* IE 10+ */
-.first-inputs button{
+.btn-inicio{
 	display: block;
 	margin-bottom: 35px;
 	padding-bottom: 20px;
@@ -95,7 +95,7 @@ nav{
 .second-section-dos{
 	text-align: center;
 }
-.second-button button{
+.second-button a{
 	display: block;
 }
 .row .col.s12{
@@ -183,12 +183,13 @@ nav{
 	text-align: center;
 }
 .second-section-cinco .balances .input-numero-tarjeta{
-	margin-top: 170px;
+	margin-top: 5px;
 	margin-bottom: 60px;
 }
 .select-wrapper input.select-dropdown{
 	padding: 0px;
 	margin-left: 18px;
+	margin-top: 170px;
 	margin-bottom: 40px;
     width: 96%;
 }
@@ -208,4 +209,17 @@ label{
 	font-weight: 800;
 	color: black;
 	margin-bottom: 5px;
+}
+
+/******VALIDACIONES*****/
+/**VALIDACIÓN**/
+.input-box{
+  color: #FB6565;
+  font-size: 20px;
+  margin: 1px;
+  text-align: left;
+}
+.eliminar{
+  float: right;
+  cursor: pointer;
 }
